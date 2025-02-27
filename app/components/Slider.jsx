@@ -25,8 +25,7 @@ export default function Slider() {
           slideShadows: false,
         }}
         initialSlide={2}
-        modules={[EffectCoverflow]}
-        // className="  max-w-screen-lg"
+        modules={[EffectCoverflow]} 
       >
         <SwiperSlide>
           <SliderCard background="bg-yellow-400" />
