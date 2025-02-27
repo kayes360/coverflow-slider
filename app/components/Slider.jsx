@@ -24,6 +24,7 @@ export default function Slider() {
           modifier: 1,
           slideShadows: false,
         }}
+        initialSlide={2}
         modules={[EffectCoverflow]}
         // className="  max-w-screen-lg"
       >
