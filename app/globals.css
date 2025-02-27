@@ -1,26 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-/*  
-.swiper-slide{
-    max-width: 270px;
-}
-
-@media (min-width: 768px) {
-    .swiper-slide{
-        max-width: 768px;
-    }
-} */
  
-.swiper-slide {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 18px;
-    font-size: 22px;
-    font-weight: bold;
-    color: #fff;
+ 
+ 
+  .swiper-slide {
+    @apply max-w-[270px] md:max-w-screen-md;
   }
-  .swiper-slide-shadow {
-    background: none !important;
-}
