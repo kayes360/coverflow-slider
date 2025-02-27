@@ -2,7 +2,7 @@ import React from "react";
 export default function SliderCard({ background }) {
   return (
     <div
-      className={`${background} h-[450px] grid max-w-[270px] md:max-w-screen-md px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 rounded-3xl shadow-2xl`}
+      className={`${background} h-[450px] grid w-full px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 rounded-3xl shadow-2xl`}
     >
       <div className="mr-auto place-self-center col-span-12 lg:col-span-6">
         <h1 className="max-w-2xl mb-4 text-2xl font-extrabold tracking-tight leading-none   dark:text-white">
